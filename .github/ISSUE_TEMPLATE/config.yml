@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://mesharc.dev/docs
+    about: The API, the SDKs, the MCP server, configuration and billing.
+  - name: Report a security problem
+    url: https://mesharc.dev/legal/security
+    about: Write to security@mesharc.dev. Please do not open a public issue.
+  - name: Account or billing help
+    url: https://mesharc.dev/docs
+    about: Write to hello@mesharc.dev from the address on your account.

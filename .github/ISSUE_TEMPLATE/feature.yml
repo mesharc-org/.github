@@ -1,0 +1,16 @@
+name: Feature request
+description: Something MeshArc should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you want to do
+      description: The task you are trying to get done, and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How it could look
+      description: An option, a tool or an example, if you have one in mind.
