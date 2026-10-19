@@ -47,6 +47,15 @@ page = arc.scrape("https://example.com/pricing")
 print(page["markdown"])
 ```
 
+### Use it with your tools
+
+| Tool | Install | Guide |
+|---|---|---|
+| **LangChain** | `pip install langchain-mesharc` | [mesharc.dev/docs/langchain](https://mesharc.dev/docs/langchain) |
+| **LlamaIndex** | `pip install llama-index-readers-mesharc` | [README](https://github.com/mesharc-org/llama-index-readers-mesharc#readme) |
+| **Claude Code** | `/plugin marketplace add mesharc-org/claude-code-plugin`, then `/plugin install mesharc@mesharc` | [README](https://github.com/mesharc-org/claude-code-plugin#readme) |
+| **n8n** | Community node `n8n-nodes-mesharc` | [README](https://github.com/mesharc-org/n8n-nodes-mesharc#readme) |
+
 ### Repositories
 
 | Repository | What it is |
@@ -54,6 +63,11 @@ print(page["markdown"])
 | [mesharc-python](https://github.com/mesharc-org/mesharc-python) | Python client for the MeshArc API, with the MCP server |
 | [mesharc-node](https://github.com/mesharc-org/mesharc-node) | Node client for the MeshArc API, with TypeScript types |
 | [mesharc-mcp](https://github.com/mesharc-org/mesharc-mcp) | The MCP server, packaged for directories and self-run setups |
+| [langchain-mesharc](https://github.com/mesharc-org/langchain-mesharc) | LangChain document loader, plus search and scrape tools for agents |
+| [llama-index-readers-mesharc](https://github.com/mesharc-org/llama-index-readers-mesharc) | LlamaIndex reader: web pages, crawls, sitemaps and change records as Documents |
+| [claude-code-plugin](https://github.com/mesharc-org/claude-code-plugin) | Claude Code plugin: the hosted MCP server, with skills to scrape, crawl and watch sites |
+| [n8n-nodes-mesharc](https://github.com/mesharc-org/n8n-nodes-mesharc) | n8n nodes: scrape, crawl, map and search, and a trigger when a watched site changes |
+| [zapier-mesharc](https://github.com/mesharc-org/zapier-mesharc) | The Zapier app: a trigger when a watched site changes, and actions to scrape, crawl and search |
 
 All open-source code here is MIT-licensed.
 

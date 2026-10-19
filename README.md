@@ -18,3 +18,4 @@ GitHub uses these files for every repository in the organisation that does not h
 - [mesharc-python](https://github.com/mesharc-org/mesharc-python): Python client for the MeshArc API, with the MCP server
 - [mesharc-node](https://github.com/mesharc-org/mesharc-node): Node client for the MeshArc API
 - [mesharc-mcp](https://github.com/mesharc-org/mesharc-mcp): the MCP server, packaged for directories and self-run setups
+- Integrations: [langchain-mesharc](https://github.com/mesharc-org/langchain-mesharc), [llama-index-readers-mesharc](https://github.com/mesharc-org/llama-index-readers-mesharc), [claude-code-plugin](https://github.com/mesharc-org/claude-code-plugin), [n8n-nodes-mesharc](https://github.com/mesharc-org/n8n-nodes-mesharc), [zapier-mesharc](https://github.com/mesharc-org/zapier-mesharc)
